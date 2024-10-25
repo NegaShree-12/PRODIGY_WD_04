@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern Coffee Shop</title>
+    <link rel="stylesheet" href="index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <header id="home">
+        <nav>
+            <div class="logo">
+                <img src="line-sketch-illustration-coffee-tea-cup-isolated-white-background-vector-logo-design-template-concept-cafe-restaurant-53499295.webp" alt="Coffee Shop Logo" style="width: 45px;">
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="icons">
+                <a href="#"><i class="fa fa-search"></i></a>
+                <a href="#"><i class="fa fa-shopping-cart"></i></a>
+            </div>
+        </nav>
+        <section class="hero">
+            <div class="hero-content">
+                <h1>Crafting the Perfect Cup</h1>
+                <p>Where every sip brings comfort, taste, and connection. Brewed with love, served with passion.</p>
+                <a href="#" class="btn">Order Now</a>
+            </div>
+        </section>
+    </header>
+
+    <!-- About Us Section -->
+    <section class="about-section" id="about">
+        <div class="about-container">
+            <div class="about-image">
+                <img src="pexels-photo-312418.webp" alt="Coffee Cup">
+            </div>
+            <div class="about-content">
+                <h2>Why We’re Unique</h2>
+                <p>At Cafena, we believe coffee is more than just a drink. It's an art form, a moment of joy, and a reason to connect. Our beans are sourced from the best farms globally, and we roast them with precision to create unforgettable flavors. Step in and be a part of our coffee story.</p>
+                <a href="#" class="btn">Learn More</a>
+            </div>
+        </div>
+    </section>
+    <section id="menu" class="menu-section">
+        <h1 class="menu-title">Our Menu</h1>
+        <div class="menu-container">
+            <div class="menu-card">
+                <div class="menu-image">
+                    <img src="coffee1.jpeg" alt="Coffee 1">
+                </div>
+                <h3 class="coffee-title">Tasty and Healthy</h3>
+                <p class="price">$15.99 <span class="original-price">$20.99</span></p>
+                <button class="add-to-cart">Add To Cart</button>
+            </div>
+
+            <div class="menu-card">
+                <div class="menu-image">
+                    <img src="coffee2.jpeg" alt="Coffee 2">
+                </div>
+                <h3 class="coffee-title">Rich Espresso</h3>
+                <p class="price">$13.99 <span class="original-price">$18.99</span></p>
+                <button class="add-to-cart">Add To Cart</button>
+            </div>
+
+            <div class="menu-card">
+                <div class="menu-image">
+                    <img src="coffee3.jpg" alt="Coffee 3">
+                </div>
+                <h3 class="coffee-title">Creamy Latte</h3>
+                <p class="price">$14.99 <span class="original-price">$19.99</span></p>
+                <button class="add-to-cart">Add To Cart</button>
+            </div>
+
+            <div class="menu-card">
+                <div class="menu-image">
+                    <img src="coffee4.jpeg" alt="Coffee 4">
+                </div>
+                <h3 class="coffee-title">Cappuccino Delight</h3>
+                <p class="price">$16.99 <span class="original-price">$21.99</span></p>
+                <button class="add-to-cart">Add To Cart</button>
+            </div>
+
+            <div class="menu-card">
+                <div class="menu-image">
+                    <img src="coffee5.jpeg" alt="Coffee 5">
+                </div>
+                <h3 class="coffee-title">Caramel Macchiato</h3>
+                <p class="price">$17.99 <span class="original-price">$22.99</span></p>
+                <button class="add-to-cart">Add To Cart</button>
+            </div>
+
+            <div class="menu-card">
+                <div class="menu-image">
+                    <img src="coffee6.jpeg" alt="Coffee 6">
+                </div>
+                <h3 class="coffee-title">Mocha Madness</h3>
+                <p class="price">$18.99 <span class="original-price">$24.99</span></p>
+                <button class="add-to-cart">Add To Cart</button>
+            </div>
+        </div>
+    </section>
+    <!-- Products Section -->
+ <section id="products" class="products-section">
+    <h1 class="products-title">Our Featured Products</h1>
+    <div class="filter-buttons">
+        <button class="filter-btn active" data-category="all">All</button>
+        <button class="filter-btn" data-category="coffee">Coffee</button>
+        <button class="filter-btn" data-category="merch">Merchandise</button>
+        <button class="filter-btn" data-category="accessories">Accessories</button>
+    </div>
+    <div class="products-container">
+        <!-- Product Card 1 -->
+        <div class="product-card" data-category="coffee">
+            <img src="arabica-coffee-beans.jpg" alt="Product 1" class="product-image">
+            <h3 class="product-name">Premium Coffee Beans</h3>
+            <p class="product-price">$25.99</p>
+            <button class="view-details" data-id="1">View Details</button>
+        </div>
+        <!-- Product Card 2 -->
+        <div class="product-card" data-category="merch">
+            <img src="good-ideas-start-with-great-coffee2.webp" alt="Product 2" class="product-image">
+            <h3 class="product-name">Coffee Shop T-shirt</h3>
+            <p class="product-price">$19.99</p>
+            <button class="view-details" data-id="2">View Details</button>
+        </div>
+        <!-- Product Card 3 -->
+        <div class="product-card" data-category="accessories">
+            <img src="mug.jpeg" alt="Product 3" class="product-image">
+            <h3 class="product-name">Handcrafted Mug</h3>
+            <p class="product-price">$14.99</p>
+            <button class="view-details" data-id="3">View Details</button>
+        </div>
+        <!-- Product Card 4 -->
+        <div class="product-card" data-category="coffee">
+            <img src="espressoblend.jpeg" alt="Product 4" class="product-image">
+            <h3 class="product-name">Espresso Blend</h3>
+            <p class="product-price">$22.99</p>
+            <button class="view-details" data-id="4">View Details</button>
+        </div>
+        <!-- Product Card 5 (New Product) -->
+        <div class="product-card" data-category="accessories">
+            <img src="07-Lifestyle_1024x1024.webp" alt="Product 5" class="product-image">
+            <h3 class="product-name">Coffee Grinder</h3>
+            <p class="product-price">$29.99</p>
+            <button class="view-details" data-id="5">View Details</button>
+        </div>
+        <!-- Product Card 6 (New Product) -->
+        <div class="product-card" data-category="merch">
+            <img src="KleenCupBamboo1.webp" alt="Product 6" class="product-image">
+            <h3 class="product-name">Reusable Coffee Cup</h3>
+            <p class="product-price">$12.99</p>
+            <button class="view-details" data-id="6">View Details</button>
+        </div>
+    </div>
+
+    <!-- Product Modal (Hidden by default) -->
+    <div id="product-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <img src="" alt="Product Image" class="modal-image">
+            <h3 class="modal-title"></h3>
+            <p class="modal-price"></p>
+            <p class="modal-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <button class="btn add-to-cart-modal">Add to Cart</button>
+        </div>
+    </div>
+  </section>
+
+
+    <!-- Contact Section -->
+<section id="contact" class="contact-section">
+    <h1 class="contact-title">Get in Touch</h1>
+    <div class="contact-container">
+        <!-- Contact Form -->
+        <div class="contact-form">
+            <h2>Contact Us</h2>
+            <form id="contact-form" action="#" method="post">
+                <div class="input-group">
+                    <input type="text" name="name" id="name" required>
+                    <label for="name">Your Name</label>
+                </div>
+                <div class="input-group">
+                    <input type="email" name="email" id="email" required>
+                    <label for="email">Your Email</label>
+                </div>
+                <div class="input-group">
+                    <textarea name="message" id="message" rows="6" required></textarea>
+                    <label for="message">Your Message</label>
+                </div>
+                <button type="submit" class="btn submit-btn">Send Message</button>
+            </form>
+        </div>
+
+        <!-- Contact Info and Social Media -->
+        <div class="contact-info">
+            <h2>Visit Us</h2>
+            <p>123 Coffee Lane, Brewtown, USA</p>
+            <p>Email: info@coffeeshop.com</p>
+            <p>Phone: +1 234 567 8900</p>
+
+            <div class="social-media">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+
+            <!-- Google Maps Embed -->
+            <div class="map-container">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.8354345094377!2d144.95592581531674!3d-37.81720997975159!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642af0f11fd81%3A0xf4c56a5e2a4b61f1!2sCoffee%20Shop!5e0!3m2!1sen!2sus!4v1618826207746!5m2!1sen!2sus" 
+                        width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </div>
+    </div>
+</section>
+
+    
+
+    <script src="index.js"></script>
+</body>
+</html>
